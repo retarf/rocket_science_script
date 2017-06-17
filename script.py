@@ -1,5 +1,6 @@
 import os
 
+
 def group_by(stream, field, success=None):
 
     # prapare data and put it in table
@@ -52,5 +53,3 @@ def group_by(stream, field, success=None):
                 output[data] = 1
 
     return output
-
-print( group_by(open('launchlog.txt'), 'year'))
