@@ -3,7 +3,7 @@ import os
 
 def group_by(stream, field, success=None):
 
-    # prapare data and put it in table
+    # prepare data and put it in table
 
     table = []
     for line in stream:
